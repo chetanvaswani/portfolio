@@ -1,0 +1,34 @@
+/* FOOTER */
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(32,37,41,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-left-div{
+    margin-left: 10px;
+}
+  
+.footer-right-div{
+    margin-right: 7px;
+}
+  
+.footer-icons{
+    color: white;
+    font-weight: bold;
+}
+  
+.footer-p{
+    display: inline;
+    position: relative;
+    top: -2px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 7px;
+}

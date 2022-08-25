@@ -1,0 +1,23 @@
+body{
+  background-color: #242831;
+  user-select: none;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* MAIN */
+main{
+  width: 100%;
+  height: calc(100vh - 47px);
+  display: flex;
+  justify-content: space-between;
+}
+
+@media ( max-width: 870px ) {
+  body{
+    overflow: hidden;
+  }
+  main{
+    height: calc(100vh - 47px);
+  }
+}

@@ -1,0 +1,48 @@
+.about-page{
+    height: calc(95vh - 47px);
+    overflow: scroll;
+    display: flex;
+}
+
+.content{
+    margin-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.145rem;
+}
+
+.content p{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 1.145rem;
+}
+
+.indent{
+    margin-left: 20px !important;
+}
+
+.double-indent{
+    margin-left: 40px !important;
+}
+
+.about-p{
+    margin-right: 40px;
+}
+
+.link{
+    color: inherit;
+    font-family: inherit;
+}
+
+.green{
+    color: #CCFF00;
+}
+
+@media ( max-width: 850px ) {
+    .about-page{
+        width: 90vw;
+    }
+    .content{
+        width: 95%;
+    }
+}

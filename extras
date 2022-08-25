@@ -1,0 +1,31 @@
+<ContentLine>
+    <p className='white'>{'!'}</p><p className="blue">{'DOCTYPE'} <i className="green">{'html'}</i></p></ContentLine>
+    <ContentLine><Blue>html</Blue> <Green>lang</Green><Equal /><Yellow>"eng"</Yellow></ContentLine>
+    <ContentLine indent={1}><p className="blue">head</p></ContentLine>
+    <ContentLine indent={2}><Blue>meta</Blue> <Green>charset</Green><Equal /><Yellow>"utf-8"</Yellow> <ForwardSlash /></ContentLine>
+    <ContentLine indent={2}>
+        <Blue>meta</Blue> <Green>name</Green><Equal /><Yellow>"viewport"</Yellow> 
+        <Green> content</Green><Equal /><Yellow>"width=decive-width, initial scale=1"</Yellow> <ForwardSlash />
+    </ContentLine>
+    <ContentLine indent={2}><Blue>title</Blue><ForwardAngleBracket /><White>About Page</White><BackAngleBracket /><Blue><ForwardSlash />title</Blue></ContentLine>
+    <ContentLine indent={1}><ForwardSlash /><Blue>head</Blue></ContentLine>
+    <ContentLine indent={1}><Blue>body</Blue></ContentLine>
+    <ContentLine indent={2}><Blue>h1</Blue><ForwardAngleBracket />
+        <White>About Me</White><BackAngleBracket /><ForwardSlash /><Blue>h1</Blue>
+    </ContentLine>
+    <ContentLine indent={2}><Blue>p</Blue><ForwardAngleBracket/> <br />
+        <div className='white indent about-p'>Hello! My name is Chetan. I'm from a small town called Bhilai, in India. My interest in programming began a year ago,
+        after a saw a video on YouTube about the perks and benifits offered to software engineers in big tech companies, and the oppurtunities one might
+        encounter simply by being a part of the community that builds the tools of the future. Although that isn't the reason I chose to become a fullstack developer,
+        but it surely was a kickstarter as it encouraged me learn more about the feild and how things work.</div>
+        <BackAngleBracket /><ForwardSlash /><Blue>p</Blue>
+    </ContentLine>
+    <ContentLine indent={2}><Blue>p</Blue><ForwardAngleBracket/> <br />
+        <div className='white indent about-p'>Since then I've been working tirelesly day in and day out, in order to gather all the skills required to start a career in tech
+        and I've been loving it. Although I'm currently in second year, persuing Bachelors in Computer Applications at Durg University. But for the most part I'm self taught, in the sense that I've learned to code
+        on my own using various online courses and books.</div>
+        <BackAngleBracket /><ForwardSlash /><Blue>p</Blue>
+    </ContentLine>
+    <ContentLine indent={2}><Blue>h3</Blue><ForwardAngleBracket />
+        <White></White><BackAngleBracket /><ForwardSlash /><Blue>h3</Blue>
+</ContentLine>

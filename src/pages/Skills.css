@@ -1,0 +1,11 @@
+.skills-page{
+    height: calc(95vh - 47px);
+    overflow: scroll;
+    display: flex;
+}
+
+.content{
+    margin-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.145rem;
+}

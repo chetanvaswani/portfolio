@@ -1,0 +1,141 @@
+/* PAGES */
+.pages{
+    padding-left: 5px;
+    position: absolute;
+    width: 78vw;
+    height: 100%;
+    right: -2px;
+}
+
+.pages-header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(32,37,41,255);
+}
+  
+.page-header-div{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    border: 2px solid #242831;
+    background-color: rgba(32,37,41,255);
+    cursor: pointer;
+}
+  
+.page-header-div-active{
+    background-color: #242831;
+    border-top: 2px solid #8c85e5;
+}
+  
+.page-header-p{
+    margin: 0;
+    margin-left: 3px;
+    font-size: 1.1rem;
+    position: relative;
+    top: -1px;
+}
+
+.page-body{
+    height: calc(100% - 87px);
+}
+
+/* LINE NUMBERS */
+
+.line-numbers-ol{
+    font-size: 1.1rem;
+    margin-top: 3px;
+    padding-left:  40px;
+    color: rgba(255, 255, 255, 0.599);
+    text-decoration: none;
+}
+
+.line-numbers-ol-li{
+    margin-bottom: 2px;
+}
+
+/* COLORS */
+
+.white{
+    color: white;
+}
+
+.green{
+    color: #CCFF00;
+}
+
+.blue{
+    color: #66d9ef;
+}
+
+.yellow{
+    color: #e6db74;
+}
+
+.pink{
+    color: 	#FFCFF1;
+}
+
+.red{
+    color: #FF681F;
+}
+
+/* FOR SMALLER SCREEN */
+
+@media ( max-width: 1100px ) {
+    .pages-header{
+        overflow-y: scroll;
+        width: 100%;
+    }
+}
+
+@media ( max-width: 950px ) {
+    .pages{
+        position: absolute;
+        left: 6%;
+        margin: none;
+        height:  calc(100% - 47px);
+        width: 94%;
+        border-left: 1px solid rgb(24, 24, 24);
+        padding: 0;
+    }
+    .file-open{
+        position: absolute;
+        left: 30%;
+    }
+}
+
+@media ( max-width: 850px ) {
+    .page-header-div{
+        display: none;
+    }
+    .page-header-div-active{
+        display: flex;
+        background-color: #242831;
+        border: none;
+        border-top: 3px solid #8c85e5;
+    }
+    .pages-header{
+        background-color: rgba(32,37,41,255);
+        width: 90vw;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
+@media ( max-width: 700px ) {
+    .pages{
+        position: absolute;
+        left: 10%;
+        margin: none;
+        height:  calc(100% - 47px);
+        width: 90vw;
+        border-left: 1px solid rgb(24, 24, 24);
+        padding: 0;
+    }
+}

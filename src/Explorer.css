@@ -1,0 +1,189 @@
+/* EXPLORER */
+
+.explorer{
+    position: absolute;
+    height: calc(100vh - 47px);
+    display: flex;
+    width: 22vw;
+    border-right: 2px solid rgb(24, 24, 24);
+  }
+  
+  /* EXPLORER ICONS */
+  
+  .explorer-icons-section{
+    max-height: 100%;
+    width: 15%;
+    background-color: #242831;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .explorer-icon-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .explorer-icon-div:hover .explorer-icons{
+    color: white;
+    cursor: pointer;
+  }
+
+  .explorer-icon-div:hover#settings::after{
+    position: absolute;
+    left: 40px;
+    content: 'Settings';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.463);
+  }
+
+  .explorer-icon-div:hover#user-profile::after{
+    position: absolute;
+    left: 40px;
+    content: 'User Profile';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.463);
+  }
+  
+  .explorer-icon-div-active{
+    border-left: 2px solid #8c85e5;
+  }
+  
+  .explorer-icons{
+    color: #84858a;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 13px 0;
+  }
+
+  #explorer-icons-botton{
+    margin-bottom: 10px;
+  }
+  
+  .explorer-active{
+    color: white;
+  }
+  
+  #search{
+    width: 62%;
+    height: auto;
+  }
+  
+  /* EXPLORER FILES */
+  
+  #explorer-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 15px 0 0 15px;
+  }
+  
+  .explorer-files{
+    color: white;
+    width: 85%;
+    background-color: rgba(32,37,41,255);
+  }
+  
+  #portfolio-toggle-heading{
+    margin: 27px 0 0 15px;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+  #portfolio-toggle-p{
+    display: inline;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+  }
+  
+  .explorer-toggle-close{
+    transform: rotate(180deg);
+    transition-duration: 0.25s;
+  }
+  
+  .portfolio-toggle-ul{
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  .hide{
+    display: none;
+  }
+  
+  .portfolio-ul-li{
+    padding: 4px 30px;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .portfolio-ul-li:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  
+  .portfolio-ul-li-p{
+    display: inline;
+    position: relative;
+    top: -3px;
+  }
+
+@media ( max-width: 950px ) {
+  .explorer{
+    width: 30%;
+    border: none;
+  }
+  .explorer-icons-section{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(32,37,41,255);
+  }
+  .explorer-files{
+    display: none;
+  }
+  .show{
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+  }
+  .grow{
+    width: 30%;
+  }
+  .light{
+    background-color: #242831;
+    z-index: 2;
+  }
+}
+
+@media ( max-width: 700px ) {
+  .explorer{
+    width: 50%;
+    border: none;
+  }
+  .explorer-icons-section{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(32,37,41,255);
+  }
+  .explorer-files{
+    display: none;
+  }
+  .show{
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+  }
+  .grow{
+    width: 60%;
+  }
+  .light{
+    background-color: #242831;
+    z-index: 2;
+  }
+}

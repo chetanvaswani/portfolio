@@ -1,0 +1,28 @@
+.contacts-page{
+    height: calc(95vh - 40px);
+    overflow: scroll;
+    display: flex;
+}
+
+.content{
+    margin-top: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.135rem;
+}
+
+.content p{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 1.145rem;
+}
+
+.contacts-page{
+    display: flex;
+}
+
+a{
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
